@@ -7,3 +7,11 @@
     text-wrap: balance;
   }
 }
+
+.text-inter {
+  font-family: var(--inter);
+}
+
+.text-my-font {
+  font-family: var(--my-font);
+}
