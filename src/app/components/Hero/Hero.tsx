@@ -1,4 +1,4 @@
-import fondo2 from '@/../public/assets/fondo4.webp'
+import fondo2 from '@/../public/assets/fondo4.jpg'
 import Image from 'next/image'
 
 function Hero() {
@@ -19,7 +19,7 @@ function Hero() {
           layout="fill"
           objectFit="cover"
           objectPosition="right"
-          className="rounded-3xl  container"
+          className="rounded-3xl container"
           priority
         />
         {/* <div
@@ -29,7 +29,7 @@ function Hero() {
         > */}
         <div
           className="relative rounded-3xl md:!rounded-r-none md:rounded-l-3xl w-full 
-        md:w-1/2 h-full bg-black bg-opacity-45 
+        md:w-1/2 h-full bg-black bg-opacity-35 
         p-4 py-6 md:p-8"
           style={{
             borderRadius: '2rem',
@@ -39,13 +39,14 @@ function Hero() {
             className="flex flex-col justify-between md:gap-2
             w-full h-full"
           >
-            <div>
+            <div className="">
               <h1 className="text-left">
                 Puntos de <br />
                 Compra y Retiro
               </h1>
               <p className="text-[#F6F5F0] text-left text-md sm:text-lg md:text-xl lg:text-2xl">
-                Enterate todas las formas en las que podemos llegar hasta vos 🙂
+                Enterate todas las formas en las que podemos
+                <br className="hidden xl:block" /> llegar hasta vos 🙂
               </p>
             </div>
 
