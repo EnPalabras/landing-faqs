@@ -1,66 +1,81 @@
-import React from 'react'
-import fondo from '@/../public/assets/fondo.jpg'
+import fondo2 from '@/../public/assets/fondo4.jpg'
 
 function Hero() {
   return (
-    // <div
-    //   className="max-w-[1090px] bg-cover bg-no-repeat w-full aspect-[16/9]
-    //   md:aspect-[16/9 1/1] lg:aspect-[16/9 1/1] xl:aspect-[16/9]
-    //   "
-    //   style={{ backgroundImage: `url(${fondo.src})` }}
-    // >
+    <>
+      <div className="mt-[6rem] container">
+        <div
+          className="w-full min-h-[380px] h-[40vh] sm:h-[90vh] bg-cover bg-right rounded-3xl shadow-lg"
+          style={{ backgroundImage: `url(${fondo2.src})` }}
+          title="Productos y Juegos de En Palabras"
+        >
+          <div className="rounded-3xl md:rounded-r-none md:rounded-l-3xl w-full md:w-1/2 h-full bg-black bg-opacity-45">
+            <div
+              className="flex flex-col justify-between md:gap-2
+            w-full h-full p-4 py-6 md:p-8"
+            >
+              <div>
+                <h1 className="text-left">
+                  Puntos de <br />
+                  Compra y Retiro
+                </h1>
+                <p className="text-[#F6F5F0] text-left text-md sm:text-lg md:text-xl lg:text-2xl">
+                  Enterate todas las formas en las que podemos llegar hasta vos
+                  🙂
+                </p>
+              </div>
 
-    <div
-      className="bg-cover w-full bg-bottom aspect-[14/9] xl:h-dvh border bottom-1"
-      style={{ backgroundImage: `url(${fondo.src})` }}
-    >
-      <div className="max-w-[1090px] mx-auto  flex flex-col justify-between h-full px-4 md:px-8 py-4 pt-8 sm:pt-16">
-        <div className="flex flex-col gap-1 lg:gap-2">
-          <h1
-            className="text-my-font text-[#5441A0] tracking-wide 
-          text-xl sm:text-3xl md:text-4xl lg:text-6xl uppercase
-        md:pt-8 xl:pt-12
-          "
-          >
-            Puntos de Compra
-            <br className="hidden md:inline lg:inline xl:inline" />y Retiro
-          </h1>
-          <p
-            className={`text-sm sm:text-md md:text-lg lg:text-2xl 
-            max-w-[250px] sm:max-w-[400px] md:max-w-[400px] lg:max-w-[450px] 
-            text-inter`}
-          >
-            Enterate todas las formas en las que podemos llegar hasta vos :)
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 lg:gap-6 lg:pb-6">
-          <p className={`text-inter text-xs sm:text-sm md:text-md lg:text-lg`}>
-            ¿Dónde te encontrás?
-          </p>
-          <div className="flex flex-col gap-2">
-            <a href="#CABA">
-              <button
-                className={`text-inter tracking-wider font-bold self-start w-1/2 md:w-1/3
-            text-sm md:text-lg hover:bg-[#a08fe5] rounded-lg bg-[#B5A9E6] uppercase
-            transition-colors duration-300 text-dark py-2 sm:py-3 md:py-4`}
-              >
-                CABA
-              </button>
-            </a>
-            <a href="#envios">
-              <button
-                className={`text-inter tracking-wider font-bold self-start w-1/2 md:w-1/3
-            text-sm md:text-lg hover:bg-[#a08fe5] rounded-lg bg-[#B5A9E6] uppercase
-            transition-colors duration-300 text-dark py-2 sm:py-3 md:py-4`}
-              >
-                INTERIOR
-                {/* INTERIOR DE ARGENTINA */}
-              </button>
-            </a>
+              <div className="flex flex-col gap-2">
+                <p className="text-[#F6F5F0] text-left text-md sm:text-lg md:text-xl lg:text-2xl">
+                  ¿Dónde te encontrás?
+                </p>
+                <a href="#caba" className="btn">
+                  <div className="btn-text">CABA y GBA</div>
+                  <div className="arrow-wrap">
+                    <div className="btn-arrow transform rotate-90">
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0 8H14M14 8L9 3M14 8L9 13"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+
+                <a href="#interior" className="btn">
+                  <div className="btn-text">Interior del Pais</div>
+                  <div className="arrow-wrap">
+                    <div className="btn-arrow transform rotate-90">
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0 8H14M14 8L9 3M14 8L9 13"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

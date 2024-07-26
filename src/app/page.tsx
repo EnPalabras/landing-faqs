@@ -1,11 +1,15 @@
 import Hero from './components/Hero/Hero'
 import FirstSections from './components/Sections/FirstSections'
+import Navbar from './components/Nav/Nav'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center ">
+    <>
+      <Navbar />
       <Hero />
-      <FirstSections />
-    </main>
+      <main className="container px-4">
+        <FirstSections />
+      </main>
+    </>
   )
 }

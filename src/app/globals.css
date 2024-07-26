@@ -2,22 +2,215 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --text-body--font: var(--text-family--headings);
+  --colors--neutral-08: #000b00;
+  --text-body--font-size-lg: 1rem;
+  --text-body--line-height: 1.7em;
+  --text-body--letter-spacing: 0em;
+  --text-body--font-size-md: 1rem;
+  --text-body--font-size-sm: 1rem;
+  --text-7xl--bottom-margin: var(--spacing-gap--rg);
+  --text-7xl--font: var(--text-family--headings);
+  --text-7xl--line-height: 1em;
+  --text-7xl--letter-spacing: -0.04em;
+  --text-7xl--font-size-md: 4.5rem;
+  --text-7xl--font-size-sm: 4rem;
+  --text-6xl--bottom-margin: var(--spacing-gap--rg);
+  --text-6xl--font: var(--text-family--headings);
+  --text-6xl--font-size-lg: 6rem;
+  --text-6xl--line-height: 0.95em;
+  --text-6xl--letter-spacing: -0.04em;
+  --text-6xl--font-size-md: 3.5rem;
+  --text-6xl--font-size-sm: 3.25rem;
+  --text-5xl--bottom-margin: var(--spacing-gap--rg);
+  --text-5xl--font-size-lg: 3.125rem;
+  --text-5xl--line-height: 1.2em;
+  --text-5xl--letter-spacing: -0.03em;
+  --text-5xl--font-size-md: 2.75rem;
+  --text-5xl--font-size-sm: 2.25rem;
+  --text-6xl--font-size-xs\<deleted\|variable-e22d1f36-3986-5c82-76bb-4401cc9cb73b\>: 1.4rem;
+  --text-4xl--bottom-margin: var(--spacing-gap--rg);
+  --text-4xl--font: var(--text-family--headings);
+  --text-4xl--font-size-lg: 2.25rem;
+  --text-4xl--line-height: 1.2em;
+  --text-4xl--letter-spacing: -0.01em;
+  --text-4xl--font-size-md: 2rem;
+  --text-4xl--font-size-sm: 2rem;
+  --text-5xl--font-size-xs\<deleted\|variable-0f1f8e18-6290-2dbc-b31f-4f0fedaea625\>: 1.2rem;
+  --text-3xl--bottom-margin: var(--spacing-gap--rg);
+  --text-3xl--font: var(--text-family--headings);
+  --text-3xl--font-size-lg: 1.5rem;
+  --text-3xl--line-height: 1.6em;
+  --text-3xl--letter-spacing: 0em;
+  --text-3xl--font-size-md: 1.375rem;
+  --text-3xl--font-size-sm: 1.375rem;
+  --text-2xl--bottom-margin: var(--spacing-gap--rg);
+  --text-2xl--font: var(--text-family--headings);
+  --text-2xl--font-size-lg: 1.375rem;
+  --text-2xl--line-height: 1.5em;
+  --text-2xl--letter-spacing: 0em;
+  --text-2xl--font-size-md: 1.5rem;
+  --text-2xl--font-size-sm: 1.375rem;
+  --text-body--bottom-margin: var(--spacing-gap--rg);
+  --colors--primary: var(--colors--neutral-06);
+  --text-7xl--font-size-lg: 8rem;
+  --text-5xl--font: var(--text-family--headings);
+  --spacing-layout--section-padding-rg: 9rem;
+  --spacing-layout--section-padding-sm: 7.5rem;
+  --spacing-layout--section-padding-mobile-rg: 5rem;
+  --spacing-layout--container-desktop: 94vw;
+  --spacing-layout--container-max: 100rem;
+  --component-button--horizontal-padding: 1.5rem;
+  --spacing-gap--sm: 0.75rem;
+  --colors--neutral-02: #e8e8e3;
+  --component-button--border-radius: var(--border-radius--rg);
+  --component-button--font: var(--text-family--alternative);
+  --component-button--font-size: 0.75rem;
+  --component-button--line-height: 1.4em;
+  --component-button--letter-spacing: 0.06em;
+  --color--hr-dark: rgba(0, 11, 0, 0.14);
+  --colors--neutral-07: #3d403c;
+  --colors--neutral-01: #fbfaf5;
+  --component-button--vertical-padding: 0.75rem;
+  --colors--hr-light: rgba(251, 250, 245, 0.16);
+  --colors--neutral-04: #b8bab4;
+  --colors--neutral-06: #4f564d;
+  --component-card--border-radius\<deleted\|variable-30571a26-0320-189d-8e1f-e096624aa6d4\>: 0.5rem;
+  --component-card--card-body-padding-lg\<deleted\|variable-12c78f20-b42d-ee21-4562-703fb2189cac\>: 24px;
+  --component-card--card-body-padding-sm\<deleted\|variable-886aa6f6-843b-26b9-170b-96cc08ca36e2\>: 20px;
+  --component-input--bottom-margin: 1rem;
+  --colors--neutral-05: #9b9e97;
+  --component-input--border-radius: 0.5rem;
+  --component-input--font: var(--text-family--headings);
+  --component-input--font-size: 1rem;
+  --component-input--line-height: 1.5em;
+  --component-input--letter-spacing: 0em;
+  --component-label--font: var(--text-family--alternative);
+  --component-label--font-size: 0.625rem;
+  --component-label--line-height: 1.4em;
+  --component-label--letter-spacing: 0.08em;
+  --colors--neutral-03: #d5d6d0;
+  --colors-page--background: var(--colors--neutral-03);
+  --colors-page--text: var(--colors--neutral-07);
+  --text-eyebrow--bottom-margin: var(--spacing-gap--rg);
+  --text-eyebrow--font: var(--text-family--alternative);
+  --text-eyebrow--font-size-lg: 0.75rem;
+  --text-eyebrow--line-height: 1.4em;
+  --text-eyebrow--letter-spacing: 0.06em;
+  --text-eyebrow--font-size-md: 0.75rem;
+  --text-eyebrow--font-size-sm: 0.75rem;
+  --text-sm--bottom-margin: var(--spacing-gap--rg);
+  --text-sm--font: var(--text-family--body);
+  --text-sm--font-size-lg: 0.875rem;
+  --text-sm--line-height: 1.7em;
+  --text-sm--letter-spacing: 0em;
+  --text-sm--font-size-md: 0.875rem;
+  --text-sm--font-size-sm: 0.8125rem;
+  --text-lg--bottom-margin: var(--spacing-gap--rg);
+  --text-lg--font: var(--text-family--headings);
+  --text-lg--font-size-lg: 1.125rem;
+  --text-lg--line-height: 1.6em;
+  --text-lg--letter-spacing: 0em;
+  --text-lg--font-size-md: 1.125rem;
+  --text-lg--font-size-sm: 1.125rem;
+  --text-xl--bottom-margin: var(--spacing-gap--rg);
+  --text-xl--font: var(--text-family--body);
+  --text-xl--font-size-lg: 1.25rem;
+  --text-xl--line-height: 1.4em;
+  --text-xl--letter-spacing: 0em;
+  --text-xl--font-size-md: 1.25rem;
+  --text-xl--font-size-sm: 1.25rem;
+  --spacing-gap--rg: 1rem;
+  --gap--3em\<deleted\|variable-9a5161f7-e5bd-45c2-790c-0f056cdf2390\>: 3em;
+  --spacing-gap--xs: 0.5rem;
+  --spacing-gap--2xs: 0.25rem;
+  --text-lg--font-size-xs\<deleted\|variable-dab72a89-1875-a2f7-1d85-bd05f81dd817\>: 1.1rem;
+  --text-xs--bottom-margin: var(--spacing-gap--rg);
+  --text-xs--font: var(--text-family--alternative);
+  --text-xs--font-size-lg: 0.625rem;
+  --text-xs--line-height: 1.4em;
+  --text-xs--letter-spacing: 0em;
+  --text-xs--font-size-md: 0.625rem;
+  --text-xs--font-size-sm: 0.625rem;
+  --spacing-gap--md: 1.25rem;
+  --spacing-gap--lg: 1.5rem;
+  --spacing-gap--xl: 2rem;
+  --spacing-gap--2xl: 2.5rem;
+  --spacing-gap--3xl: 3.5rem;
+  --spacing-gap--4xl: 4rem;
+  --spacing-layout--section-padding-lg: 12.5rem;
+  --spacing-layout--section-padding-xs: 6rem;
+  --text-family--body: Geist, Arial, sans-serif;
+  --border-radius--xs: 0.375rem;
+  --border-radius--sm: 0.625rem;
+  --border-radius--rg: 2rem;
+  --border-radius--lg: 1rem;
+  --border-radius--xl: 1.5rem;
+  --spacing-layout--row-col-gap: 1.5rem;
+  --text-family--headings: Stringer, 'Times New Roman', sans-serif;
+  --text-8xl--font-size-xs: 2.8rem;
+  --text-weight--100: 0px;
+  --text-weight--200: 0px;
+  --text-weight--300: 0px;
+  --text-weight--400: 0px;
+  --text-weight--500: 0px;
+  --text-weight--600: 0px;
+  --text-weight--700: 0px;
+  --text-weight--800: 0px;
+  --text-weight--900: 0px;
+  --text-body--font-weight: var(--text-weight--500);
+  --text-7xl--font-weight: var(--text-weight--100);
+  --text-6xl--font-weight: var(--text-weight--100);
+  --text-5xl--font-weight: var(--text-weight--100);
+  --text-xl--font-weight: var(--text-weight--600);
+  --text-lg--font-weight: var(--text-weight--300);
+  --text-sm--font-weight: var(--text-weight--500);
+  --text-eyebrow--font-weight: var(--text-weight--700);
+  --component-button--font-weight: var(--text-weight--700);
+  --component-input--font-weight: var(--text-weight--400);
+  --component-label--font-weight: var(--text-weight--700);
+  --spacing-layout--container-mobile: 92vw;
+  --text-family--alternative: 'Geist Mono', Arial, sans-serif;
+  --text-2xl--font-weight: var(--text-weight--300);
+  --text-3xl--font-weight: var(--text-weight--300);
+  --text-4xl--font-weight: var(--text-weight--300);
+  --text-xs--font-weight: var(--text-weight--700);
+  --component-button--color: var(--colors--primary);
+  --component-button--hover-color: var(--colors--neutral-01);
+}
+
 html {
-  scroll-behavior: smooth;
+  height: 100%;
+  scroll-behavior: smooth !important;
+}
+.text-my-font {
+  font-family: var(--my-font);
+}
+
+.font-inter {
+  font-family: var(--inter);
+}
+
+body {
+  color: #333;
+  background-color: #f6f5f0;
+  min-height: 100%;
+  margin: 0;
+  font-size: 14px;
+}
+
+body {
+  color: var(--colors--neutral-08);
+  font-size: var(--text-body--font-size-lg);
+  letter-spacing: var(--text-body--letter-spacing);
+  font-weight: var(--text-body--font-weight);
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
-}
-
-.text-inter {
-  font-family: var(--inter);
-}
-
-.text-my-font {
-  font-family: var(--my-font);
 }
 
 hr {
@@ -51,3 +244,5 @@ button {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+/* */
