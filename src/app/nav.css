@@ -545,7 +545,8 @@ p {
   transition-timing-function: ease, ease, cubic-bezier(0.165, 0.84, 0.44, 1);
   display: inline-flex;
   position: relative;
-  background-color: #f6f5f0;
+  /* background-color: #f6f5f0; */
+  background-color: #ded4f4;
 }
 
 .btn:hover {

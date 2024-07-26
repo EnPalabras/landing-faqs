@@ -80,7 +80,7 @@ export default function Navbar() {
             <div className="col col-lg-8 col-md-10 col-sm-12">
               <nav role="navigation" className="nav-menu w-nav-menu">
                 <div className="nav-inner">
-                  <div className="nav-flip">
+                  <div className="nav-flip !hidden md:!block">
                     <Link
                       className="icon-box cc-nav w-inline-block"
                       aria-label="Home"

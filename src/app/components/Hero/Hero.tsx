@@ -5,7 +5,7 @@ function Hero() {
     <>
       <div className="mt-[6rem] container">
         <div
-          className="w-full min-h-[380px] h-[40vh] sm:h-[90vh] bg-cover bg-right rounded-3xl shadow-lg"
+          className="w-full min-h-[380px] h-[45vh] sm:h-[90vh] bg-cover bg-right rounded-3xl shadow-lg"
           style={{ backgroundImage: `url(${fondo2.src})` }}
           title="Productos y Juegos de En Palabras"
         >

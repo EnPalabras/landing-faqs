@@ -59,7 +59,7 @@ function ShipOption() {
         <Link
           href="https://enpalabras.com.ar"
           target="_blank"
-          className="btn mt-1 !bg-white w-auto mx-auto !hover:bg-black hover:!bg-gray-100"
+          className="btn mt-1 w-auto mx-auto "
           role="button"
         >
           <div className="btn-text">Compra en la Tienda Online</div>
@@ -259,7 +259,8 @@ function PickupOption() {
       <Link
         href="https://enpalabras.com.ar"
         target="_blank"
-        className="btn mt-1 !bg-white w-auto mx-auto !hover:bg-black hover:!bg-gray-100"
+        className="btn mt-4 w-auto mx-auto 
+        "
         role="button"
       >
         <div className="btn-text">Compra en la Tienda Online</div>
@@ -432,7 +433,7 @@ function InteriorOption() {
       <Link
         href="https://enpalabras.com.ar"
         target="_blank"
-        className="btn mt-1 !bg-white w-auto mx-auto !hover:bg-black hover:!bg-gray-100"
+        className="btn mt-1 w-auto mx-auto "
         role="button"
       >
         <div className="btn-text">Compra en la Tienda Online</div>
