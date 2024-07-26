@@ -21,7 +21,7 @@ function Hero() {
         <div
           className="relative rounded-3xl md:!rounded-r-none md:rounded-l-3xl w-full 
         md:w-1/2 h-full bg-black bg-opacity-35 
-        p-4 py-6 md:p-8 md-py-10"
+        p-4 py-6 md:p-8 md:py-10"
           style={{
             borderRadius: '2rem',
           }}
