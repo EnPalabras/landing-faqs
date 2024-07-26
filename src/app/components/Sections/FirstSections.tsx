@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 function FirstSections() {
   return (
     <>
@@ -54,7 +56,7 @@ function ShipOption() {
         >
           Hacemos envíos por correo a todo el país.
         </p>
-        <a
+        <Link
           href="https://enpalabras.com.ar"
           target="_blank"
           className="btn mt-1 !bg-white w-auto mx-auto !hover:bg-black hover:!bg-gray-100"
@@ -73,12 +75,12 @@ function ShipOption() {
                 <path
                   d="M0 8H14M14 8L9 3M14 8L9 13"
                   stroke="currentColor"
-                  stroke-width="1.5"
+                  strokeWidth="1.5"
                 ></path>
               </svg>
             </div>
           </div>
-        </a>
+        </Link>
       </div>
     </div>
   )
@@ -178,6 +180,7 @@ function PickupOption() {
           </div>
         </div>
         <iframe
+          title="Mapa de locales En Palabras"
           src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d52569.244120962445!2d-58.47524931625206!3d-34.564244814948815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sCOSHOWROOM%20%7C!5e0!3m2!1sen!2sar!4v1719097141111!5m2!1sen!2sar"
           height="300"
           allowFullScreen
@@ -244,6 +247,7 @@ function PickupOption() {
         </div>
 
         <iframe
+          title="Mapa de locales En Palabras"
           src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d52569.244120962445!2d-58.47524931625206!3d-34.564244814948815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sCOSHOWROOM%20%7C!5e0!3m2!1sen!2sar!4v1719097141111!5m2!1sen!2sar"
           height="550"
           allowFullScreen
@@ -252,7 +256,7 @@ function PickupOption() {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
-      <a
+      <Link
         href="https://enpalabras.com.ar"
         target="_blank"
         className="btn mt-1 !bg-white w-auto mx-auto !hover:bg-black hover:!bg-gray-100"
@@ -271,12 +275,12 @@ function PickupOption() {
               <path
                 d="M0 8H14M14 8L9 3M14 8L9 13"
                 stroke="currentColor"
-                stroke-width="1.5"
+                strokeWidth="1.5"
               ></path>
             </svg>
           </div>
         </div>
-      </a>
+      </Link>
     </div>
   )
 }
@@ -377,13 +381,13 @@ function DirectOption() {
 
             <p className="font-bold font-inter text-gray-700 !mb-0">
               Las promociones son exclusivas de nuestra{' '}
-              <a
+              <Link
                 className="text-[#5441A0] underline underline-offset-2"
                 href="https://enpalabras.com.ar"
                 target="_blank"
               >
                 tienda online
-              </a>
+              </Link>
               .
             </p>
           </div>
@@ -425,7 +429,7 @@ function InteriorOption() {
       >
         Hacemos envíos por correo a todo el país.
       </p>
-      <a
+      <Link
         href="https://enpalabras.com.ar"
         target="_blank"
         className="btn mt-1 !bg-white w-auto mx-auto !hover:bg-black hover:!bg-gray-100"
@@ -444,12 +448,12 @@ function InteriorOption() {
               <path
                 d="M0 8H14M14 8L9 3M14 8L9 13"
                 stroke="currentColor"
-                stroke-width="1.5"
+                strokeWidth="1.5"
               ></path>
             </svg>
           </div>
         </div>
-      </a>
+      </Link>
     </div>
   )
 }

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Script from 'next/script'
 
 export default function Navbar() {
@@ -71,7 +72,8 @@ export default function Navbar() {
         data-easing="ease"
         data-easing2="ease"
         role="banner"
-        className="nav w-nav top-0 left-0 right-0 z-50 !fixed  !bg-[#F6F5F0] !bg-opacity-100"
+        className="nav w-nav top-0 left-0 right-0 z-50 !fixed  
+        !bg-[#F6F5F0] !bg-opacity-100"
       >
         <div className="container">
           <div className="row row-justify-center">
@@ -79,10 +81,10 @@ export default function Navbar() {
               <nav role="navigation" className="nav-menu w-nav-menu">
                 <div className="nav-inner">
                   <div className="nav-flip">
-                    <a
+                    <Link
+                      className="icon-box cc-nav w-inline-block"
                       aria-label="Home"
                       href="/"
-                      className="icon-box cc-nav w-inline-block"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -97,38 +99,38 @@ export default function Navbar() {
                           strokeWidth="1.5"
                         ></path>
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                   <div className="nav-flip">
-                    <a href="/#work" className="nav-link w-nav-link">
+                    <Link href="" className="nav-link w-nav-link">
                       Envios
-                    </a>
+                    </Link>
                   </div>
                   <div className="nav-flip">
-                    <a
-                      href="/about"
+                    <Link
+                      href=""
                       aria-current="page"
                       className="nav-link w-nav-link w--current"
                     >
                       Preguntas
-                    </a>
+                    </Link>
                   </div>
                   <div className="nav-flip">
-                    <a
+                    <Link
                       href="https://enpalabras.com.ar"
                       target="_blank"
                       className="nav-link w-nav-link"
                     >
                       Tienda
-                    </a>
+                    </Link>
                   </div>
                   <div className="nav-flip">
-                    <a
+                    <Link
                       href="mailto:admin@enpalabras.com.ar"
                       className="nav-link w-nav-link"
                     >
                       Contacto
-                    </a>
+                    </Link>
                   </div>
                   <div className="nav-bg" data-flip-id="auto-1"></div>
                 </div>

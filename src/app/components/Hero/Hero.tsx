@@ -43,7 +43,7 @@ function Hero() {
                         <path
                           d="M0 8H14M14 8L9 3M14 8L9 13"
                           stroke="currentColor"
-                          stroke-width="1.5"
+                          strokeWidth="1.5"
                         ></path>
                       </svg>
                     </div>
@@ -64,7 +64,7 @@ function Hero() {
                         <path
                           d="M0 8H14M14 8L9 3M14 8L9 13"
                           stroke="currentColor"
-                          stroke-width="1.5"
+                          strokeWidth="1.5"
                         ></path>
                       </svg>
                     </div>
