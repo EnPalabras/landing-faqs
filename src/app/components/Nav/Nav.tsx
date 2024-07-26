@@ -23,7 +23,7 @@ export default function Navbar() {
         src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"
         async
       />
-      <Script>
+      <Script id="nav-js">
         {`
           
   // Step 1: Find the element with a class of ".nav" and save it in a variable.
