@@ -1,4 +1,4 @@
-import fondo2 from '@/../public/assets/fondo4.jpg'
+import fondo2 from '@/../public/assets/fondo4.webp'
 
 function Hero() {
   return (
