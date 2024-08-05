@@ -186,7 +186,7 @@
 
 html {
   height: 100%;
-  scroll-behavior: smooth !important;
+  scroll-behavior: smooth;
 }
 .text-my-font {
   font-family: var(--my-font);

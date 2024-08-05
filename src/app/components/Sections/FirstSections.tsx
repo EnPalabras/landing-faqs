@@ -3,7 +3,7 @@ import Link from 'next/link'
 function FirstSections() {
   return (
     <>
-      <h2 className="tracking-wide my-[3rem] lg:my-[4rem]">
+      <h2 className="tracking-wide my-[3rem] lg:my-[4rem]" id="caba">
         Si querés que el producto llegue a{' '}
         <span className="text-my-font text-[#284E37]">CABA</span> tenés{' '}
         <span className="underline underline-offset-8 decoration-[#284E37]">
@@ -299,19 +299,19 @@ function DirectOption() {
         </p>
         <p
           className="tracking-wide text-md sm:text-lg md:text-xl lg:text-2xl
-          text-justify lg:text-left lg:text-balance font-extrabold text-[#5441A0]"
+          text-justify lg:text-left lg:text-balance font-extrabold text-[#5441A0] !mb-0"
         >
           Locales disponibles{' '}
         </p>
 
-        <div className="font-inter flex flex-col gap-2 mb-2">
-          <div className="flex flex-row gap-2 justify-between">
+        <div className="font-inter flex flex-col gap-2 mb-1 lg:mb-2">
+          <div className="flex flex-row gap-1 justify-between">
             <div
-              className="flex flex-col items-start gap-6 w-full
+              className="flex flex-col items-start w-full
             text-sm sm:text-sm md:text-md lg:text-lg
             "
             >
-              <div className="flex flex-row">
+              <div className="flex flex-row ">
                 📍
                 <p className="text-inter font-extrabold ">
                   DOT:{' '}
@@ -341,11 +341,10 @@ function DirectOption() {
               </div>
               <div className="flex md:hidden flex-col justify-end items-start">
                 <p
-                  className="tracking-wide text-md sm:text-lg md:text-xl lg:text-2xl
-          text-justify lg:text-left lg:text-balance font-extrabold text-[#5441A0]"
+                  className="tracking-wide text-base sm:text-lg md:text-xl lg:text-2xl
+          text-justify lg:text-left lg:text-balance font-extrabold text-[#5441A0] !mb-0"
                 >
-                  {' '}
-                  Métodos de pago{' '}
+                  Métodos de Pago{' '}
                 </p>
                 <p>Efectivo | Tarjetas | Mercado Pago</p>
               </div>
@@ -353,9 +352,9 @@ function DirectOption() {
             <div className="hidden md:flex flex-col justify-end w-full items-start">
               <p
                 className="tracking-wide text-md sm:text-lg md:text-xl lg:text-2xl
-          text-justify lg:text-left lg:text-balance font-extrabold text-[#5441A0]"
+          text-justify lg:text-left lg:text-balance font-extrabold text-[#5441A0] !mb-0"
               >
-                Métodos de pago{' '}
+                Métodos de Pago{' '}
               </p>
               <p>Efectivo | Tarjetas | Mercado Pago</p>
             </div>

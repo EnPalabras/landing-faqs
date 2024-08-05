@@ -72,7 +72,9 @@ export default function Navbar() {
         data-easing="ease"
         data-easing2="ease"
         role="banner"
-        className="nav w-nav top-0 left-0 right-0 z-50 !fixed  
+        // className="nav w-nav top-0 left-0 right-0 z-50 !fixed
+        // !bg-[#F6F5F0] !bg-opacity-100"
+        className="nav w-nav z-50 mt-[1rem]
         !bg-[#F6F5F0] !bg-opacity-100"
       >
         <div className="container">

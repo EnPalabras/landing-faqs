@@ -4,7 +4,8 @@ import Image from 'next/image'
 function Hero() {
   return (
     <>
-      <div className="mt-[6rem] w-full container  min-h-[380px] h-[45vh] sm:h-[90vh]">
+      {/* <div className="mt-[1rem] lg:mt-[2rem] w-full container min-h-[380px] h-[45vh] sm:h-[90vh]"> */}
+      <div className="w-full container min-h-[380px] h-[45vh] sm:h-[90vh]">
         <Image
           src={fondo2.src}
           alt="Productos y Juegos de En Palabras"

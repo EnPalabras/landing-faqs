@@ -631,7 +631,7 @@ p {
   z-index: 2;
   font-family: var(--component-button--font);
   color: var(--colors--neutral-06);
-  font-size: 0.625rem;
+  font-size: 0.7rem;
   line-height: var(--component-button--line-height);
   letter-spacing: var(--component-button--letter-spacing);
   text-transform: uppercase;
@@ -670,7 +670,7 @@ p {
 }
 
 .nav-inner {
-  flex-flow: wrap;
+  flex-flow: nowrap;
   justify-content: space-between;
   align-items: center;
   padding-left: 3.5rem;
