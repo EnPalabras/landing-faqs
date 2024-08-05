@@ -25,9 +25,12 @@ export const metadata: Metadata = {
   icons: {
     icon: '//acdn.mitiendanube.com/stores/001/705/915/themes/common/logo-1600072508-1621866994-b0fd695ab493ee571f9f076ae0ea024d1621866995.ico?0',
   },
-
+  authors: [{ name: 'En Palabras' }],
+  creator: 'En Palabras',
+  publisher: 'En Palabras',
   openGraph: {
     title: 'En Palabras - FAQs',
+
     description:
       'Preguntas frecuentes sobre En Palabras. Contiene información acerca de envíos, retiros, pagos. También información sobre la empresa y sus productos. Conseguí todos nuestros productos en nuestra tienda online.',
     images: [
