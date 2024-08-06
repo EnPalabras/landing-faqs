@@ -508,14 +508,15 @@ p {
   border-left-width: 1px;
   border-left-color: var(--colors--neutral-02);
   border-radius: var(--component-button--border-radius);
-  font-family: var(--component-button--font);
-  color: var(--colors--primary);
+  font-family: var(--inter);
+  color: black;
   font-size: var(--component-button--font-size);
   line-height: var(--component-button--line-height);
   text-align: center;
   letter-spacing: var(--component-button--letter-spacing);
   text-transform: uppercase;
-  font-weight: var(--component-button--font-weight);
+  /* font-weight: var(--component-button--font-weight); */
+  font-weight: 700;
   flex: none;
   justify-content: center;
   align-items: center;
@@ -531,7 +532,7 @@ p {
 
 .btn:hover {
   /* border-color: var(--color--hr-dark); */
-  color: var(--colors--primary);
+  color: black;
   background-color: #cebcf1;
 }
 
