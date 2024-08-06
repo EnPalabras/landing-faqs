@@ -15,11 +15,11 @@ function FirstSections() {
         id="CABA"
       >
         <ShipOption />
-        <hr className="h-[1px] lg:h-[1.5px]" />
+        {/* <hr className="h-[1px] lg:h-[1.5px]" /> */}
         <PickupOption />
-        <hr className="h-[1px] lg:h-[1.5px]" />
+        {/* <hr className="h-[1px] lg:h-[1.5px]" /> */}
         <DirectOption />
-        <hr className="h-[1px] lg:h-[1.5px]" id="envios" />
+        {/* <hr className="h-[1px] lg:h-[1.5px]" id="envios" /> */}
         <InteriorOption />
       </div>
     </>
