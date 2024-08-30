@@ -10,7 +10,7 @@ export default function Home() {
       {/* <Navbar /> */}
       <header>
         {' '}
-        <Image src={logo.src} alt="En Palabras" width={303} height={90} />
+        <Image src={logo.src} alt="En Palabras" width={225} height={68} />
       </header>
 
       <Hero />

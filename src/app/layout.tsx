@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Raleway } from 'next/font/google'
+import { GoogleAnalytics } from '@next/third-parties/google'
 import './globals.css'
 import localFont from 'next/font/local'
 import './nav.css'
@@ -55,6 +56,7 @@ export default function RootLayout({
       <body className="flex min-h-screen flex-col items-center ">
         {children}
       </body>
+      <GoogleAnalytics gaId="G-MKG6D0CXYV" />
     </html>
   )
 }

@@ -19,7 +19,7 @@ function FirstSections() {
         <PickupOption />
         {/* <hr className="h-[1px] lg:h-[1.5px]" /> */}
         <DirectOption />
-        {/* <hr className="h-[1px] lg:h-[1.5px]" id="envios" /> */}
+        <hr className="h-[1px] lg:h-[1.5px]" id="envios" />
         <InteriorOption />
       </div>
     </>
@@ -424,10 +424,11 @@ function InteriorOption() {
       </div>
       <p
         className="tracking-wide text-md sm:text-lg md:text-xl lg:text-2xl
-          text-justify lg:text-left lg:text-balance font-extrabold 
-          underline underline-offset-8"
+          text-justify lg:text-left lg:text-balance
+          "
       >
-        Hacemos envíos por correo a todo el país.
+        Hacemos envíos por correo
+        <span className="font-extrabol"> a todo el país.</span>
       </p>
       <Link
         href="https://enpalabras.com.ar"
