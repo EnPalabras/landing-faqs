@@ -125,19 +125,7 @@ function PickupOption() {
 
       <div className="my-4 md:hidden flex flex-col gap-6 items-center">
         <div className="grid grid-cols-2 gap-2 w-full">
-          <div className="flex flex-row w-full ">
-            📍
-            <p className="text-inter font-extrabold text-sm sm:text-sm md:text-md lg:text-lg">
-              DOT <br />
-              <span className="font-normal font-inter">Local CoShowroom</span>
-              <br />
-              <span className="font-normal font-inter">
-                Lun. a Dom. de 10 a 22hs
-              </span>
-              <br />
-              <span className="font-normal font-inter">Demora 48hs</span>
-            </p>
-          </div>
+       
           <div className="flex flex-row w-full">
             📍
             <p className="text-inter font-extrabold text-sm sm:text-sm md:text-md lg:text-lg">
@@ -193,19 +181,7 @@ function PickupOption() {
 
       <div className="hidden md:flex flex-row my-6 gap-2 items-center">
         <div className="flex flex-col gap-2 justify-between  flex-1 h-[540px]">
-          <div className="flex flex-row">
-            📍
-            <p className="text-inter font-extrabold text-sm sm:text-sm md:text-md lg:text-lg">
-              DOT:{' '}
-              <span className="font-normal font-inter">Local CoShowroom</span>
-              <br />
-              <span className="font-normal font-inter">
-                Lunes a Domingos de 10 a 22hs
-              </span>
-              <br />
-              <span className="font-normal font-inter">Demora 48hs</span>
-            </p>
-          </div>
+         
           <div className="flex flex-row ">
             📍
             <p className="text-inter font-extrabold text-sm sm:text-sm md:text-md lg:text-lg">
@@ -312,20 +288,7 @@ function DirectOption() {
             text-sm sm:text-sm md:text-md lg:text-lg
             "
             >
-              <div className="flex flex-row ">
-                📍
-                <p className="text-inter font-extrabold ">
-                  DOT:{' '}
-                  <span className="font-normal font-inter">
-                    Vedia 3600 | 1° Piso: Local CoShowroom
-                  </span>
-                  <br />
-                  <span className="font-normal font-inter text-[#5441A0]">
-                    Lunes a Domingos de 10 a 22hs
-                  </span>
-                  <br />
-                </p>
-              </div>
+       
               <div className="flex flex-row">
                 📍
                 <p className="text-inter font-extrabold ">
